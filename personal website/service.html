@@ -1,1 +1,80 @@
-This is my service.
+<!DOCTYPE html>
+<html>
+
+<head>  
+    
+    <style>
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f1f1f1;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        }
+
+        li{
+            float: left;
+        }
+
+        li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover {
+        background-color: orange;
+        }
+
+        
+        div.background{
+            background-image: url(background4.JPG);
+            background-repeat: repeat;
+            background-position: left top;
+            background-size: 100% auto;
+        }
+        div.transbox{
+            margin: 1px;
+            background-color: #ffffff;
+            opacity: 0.6;
+        }
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 60px;
+            text-align: center;
+            color: black;
+        }
+
+        div.container{
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        div.back{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="qualification.html">Qualifications</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li style="float:right"><a class="active" href="about.html">About Me</a></li>
+    </ul>
+Thi is service.
+</body>
+
+</html>

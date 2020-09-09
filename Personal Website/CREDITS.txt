@@ -2,3 +2,8 @@
 
 All images clearly showed in the webpages are originated from Yingtao Jiang
 or held by Yingtao Jiang
+
+# Template Credits
+
+The template of the web page is from Templated, a online template website.
+The instructor allow students to use template in this project
